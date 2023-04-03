@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    text-decoration: none;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    
+}
+.selection-bar {
+    background-color: goldenrod;
+}
+.main-container {
+    box-sizing: border-box;
+    margin: 0 30px 80px 30px;
+    flex: 1;
+    display: flex;
+    border: 2px solid black;
+}
