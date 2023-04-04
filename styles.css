@@ -23,14 +23,15 @@ body {
 }
 .main-container {
     box-sizing: border-box;
-    margin: 0 30px 80px 30px;
+    margin: 80px;
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid black;
 }
 
 .grey{
+    box-sizing: border-box;
     background-color: gray;
-    height: 100px;
-    width: 100px;
+    border: 1px solid black;
 }
