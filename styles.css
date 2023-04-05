@@ -10,20 +10,40 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 100px;
+    gap: 10px;
 }
 .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
+    align-self: stretch;
     text-align: center;
+    gap: 20px;
     
 }
+.title > h1 {
+    font-size: 48px;
+}
 .selection-bar {
-    background-color: goldenrod;
+/*     background-color: goldenrod; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+
+}
+.selection-bar > p {
+    font-size: 22px;
+}
+.selection-bar > button {
+    font-weight: bold;
+    padding: 8px;
+    width: 120px;
+    border-radius: 2em;
 }
 .main-container {
+    background-color: white;
     height: 650px;
     width: 650px;
     display: flex;
